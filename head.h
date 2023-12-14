@@ -33,4 +33,9 @@ typedef struct instruction_s
 
 #include <stdio.h>
 #include<stdlib.h>
+#include <string.h>
+
+/* opcode_commands*/
+void pop(stack_s *head, unsigned int data);
+
 #endif
