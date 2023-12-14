@@ -11,7 +11,7 @@ void pint(stack_t *head, unsigned int data)
 {
 	if (head == NULL)
 	{
-		fprintf(stderr, "L%u: can't pint, stack empty\n", data)
+		fprintf(stderr, "L%u: can't pint, stack empty\n", data);
 			exit(EXIT_FAILURE);
 	}
 

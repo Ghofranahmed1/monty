@@ -7,7 +7,7 @@
  * @data: line number
  * Return: no return
  */
-void pop(stack_s *head, unsigned int data)
+void pop(stack_t *head, unsigned int data)
 {
 	stack_t *pointer;
 
