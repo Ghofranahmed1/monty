@@ -15,5 +15,5 @@ void pint(stack_t *head, unsigned int data)
 			exit(EXIT_FAILURE);
 	}
 
-	printf("%d\n", head->x);
+	printf("%d\n", head->n);
 }

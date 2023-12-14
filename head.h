@@ -38,5 +38,10 @@ typedef struct instruction_s
 /* opcode_commands*/
 void pop(stack_t *head, unsigned int data);
 void pint(stack_t *head, unsigned int data);
+void pull(stack_t *head);
+void push(stack_t *head, int data);
 
+
+/*get opcode function*/
+void (*opcodes(char *popc))(stack_t **stack, unsigned int line_number);
 #endif

@@ -1,4 +1,4 @@
-#include "main.h"
+#include "head.h"
 
 /*
  *
@@ -7,7 +7,7 @@
  *
  */
 
-void pull(stack_s *head)
+void pull(stack_t *head)
 {
 	int i;
 	stach_s *pointer = head;
@@ -24,6 +24,6 @@ void pull(stack_s *head)
 			print("%d\n", pointer->n);
 			pointer = pointer->next;
 		}
-		exit()
+		exit();
 	}
 }
