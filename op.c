@@ -12,6 +12,8 @@ void get_op(char *op, stack_t **stack, unsigned int n)
 	instruction_t valid_ops_list[] = {
 		{"push",push},
 		{"pall", pall},
+		{"pint", _pint},
+		{"pop", _pop},
 		{NULL, NULL}};
 	for(i = 0; valis_ops_list[i].opcode != NULL; i++)
 	{
