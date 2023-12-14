@@ -32,5 +32,6 @@ int main(int argc, char *argv[])
 			get_op(op, &stack, line_number);
 		}
 	}
+	exit(EXIT_SUCCESS);
 }
 
