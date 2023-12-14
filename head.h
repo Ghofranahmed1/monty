@@ -44,4 +44,8 @@ void push(stack_t *head, int data);
 
 /*get opcode function*/
 void (*opcodes(char *popc))(stack_t **stack, unsigned int line_number);
+
+/*functions imported*/
+int strcmp(char *s1, char *s2);
+
 #endif
