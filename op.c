@@ -1,4 +1,5 @@
 #include "head.h"
+#include <stdio.h>
 
 /*
  * get_op - find the function that gies with the command
@@ -11,7 +12,7 @@ void get_op(char *op, stack_t **stack, unsigned int n)
 {
 	instruction_t valid_ops_list[] = {
 		{"push",push},
-		{"pall", pall},
+		{"pall", pull},
 		{"pint", _pint},
 		{"pop", _pop},
 		{NULL, NULL}};

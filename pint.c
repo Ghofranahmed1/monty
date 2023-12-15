@@ -1,19 +1,20 @@
 #include "head.h"
 
 /**
- * pint - Prints the top value of the stack
+ * _pint - Prints the top value of the stack
  *
  * @head: head of the linked list
  * @data: line number
  * Return: no return
  */
-void pint(stack_t *head, unsigned int data)
+void _pint(stack_t **head, unsigned int lnum)
 {
-	if (head == NULL)
+	if (*head == NULL)
 	{
-		fprintf(stderr, "L%u: can't pint, stack empty\n", data);
+		fprintf(stderr, "L%u: can't pint, stack empty\n", lnum);
+		free_gv();
 			exit(EXIT_FAILURE);
 	}
 
-	printf("%d\n", head->n);
+	printf("%d\n", (*head)->n);
 }

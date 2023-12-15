@@ -1,4 +1,6 @@
 #include "head.h"
+#include <stdio.h>
+
 /**
  * _swap - swaps the top two elements of the stack
  *
